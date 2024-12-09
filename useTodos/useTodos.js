@@ -1,17 +1,7 @@
 import  { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/TodoReduce";
+import { todoReducer } from "./TodoReduce";
 
 const initialState = [
-  // {
-  //   id: new Date().getTime(),
-  //   description: "Aprender React esta siendo muy divertido",
-  //   done: false,
-  // },
-  // {
-  //   id: new Date().getTime() + 1000,
-  //   description: "Aprender Node esta siendo muy divertido",
-  //   done: false,
-  // },
 ];
 
 const init = () => {
